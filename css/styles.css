@@ -1,0 +1,15 @@
+img{
+    width: 15vh;
+    margin: 2px;
+}
+
+body{
+    background-color: #e7a144;
+}
+
+.niche-video{
+    width: 35%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}

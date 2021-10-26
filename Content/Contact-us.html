@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <title>login</title>
+</head>
+<nav class="navbar navbar-expand-lg navbar-light bg-light border rounded shadow p-3 mb-5 bg-body">
+    <div class="container-fluid">
+        <a class="navbar-brand fs-5" href="index.html">Blog Music</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Generos
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#Salsa">Salsa Jhon</a></li>
+                        <li><a class="dropdown-item" href="#Rock">Rock David Torres</a></li>
+                        <li><a class="dropdown-item" href="#electronica">Electronica Zapata</a></li>
+                        <li><a class="dropdown-item" href="#Pop">Pop Minerva</a></li>
+                        <li><a class="dropdown-item" href="#Blues">Blues David</a></li>
+                        <li><a class="dropdown-item" href="#Rap">Rap Julian</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="Contact-us.html">Contactenos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled">Todo lo que puedas saber acerca de musica la encontraras aca</a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Buscar</button>
+            </form>
+        </div>
+    </div>
+</nav>
+
+<body>
+    <div>
+        <div class="container mt-5 offset-4 border rounded shadow p-3 mb-5 bg-body w-50">
+
+            <form class="my-5 mx-5">
+                <div class="mb-3">
+                    <label class="form-label">Discos</label>
+                    <select class="form-select w-100" id="discos" aria-label="Default select example">
+                        <option selected>Selecciona tu disco</option>
+                        <option value="Disco_1">Disco 1</option>
+                        <option value="Disco_2">Disco 2</option>
+                        <option value="Disco_3">Disco 3</option>
+                        <option value="Disco_4">Disco 4</option>
+                        <option value="Disco_5">Disco 5</option>
+                        <option value="Disco_6">Disco 6</option>
+                        <option value="Disco_7">Disco 7</option>
+                        <option value="Disco_8">Disco 8</option>
+                        <option value="Disco_9">Disco 9</option>
+                    </select>
+                </div>
+                
+                
+                <button id="send-confirm" type="button" class="btn btn-outline-primary w-25 my-2" onclick="mostrar()">Agregar</button>
+
+            </form>
+        </div>
+        <div class="container mt-5 offset-4 border rounded shadow p-3 mb-5 bg-body w-50">
+            <table>
+                <table class="table table-striped table-hover">
+                    <thead>
+                        <tr>
+                            <th scope="col">Disco</th>
+                            <th scope="col">Acciones</th>
+                        </tr>
+                    </thead>
+                    <tbody id="datastorage">
+                        
+                    </tbody>
+                </table>
+            </table>
+            <div class="mb-3">
+                <label class="form-label">Escribe el correo</label>
+                <input type="email" class="w-100 form-control" id="email">
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="check">
+                <label class="form-check-label" for="exampleCheck1">Autorizacion de datos</label>
+            </div>
+            <button type="button" class="btn btn-outline-primary w-25 my-2" onclick="mostrar()">Enviar</button>
+        </div>
+
+        </p>
+        <hr>
+        <footer>
+            <div class="container-fluid row pt-5">
+                <div class="iconos col-6 ">
+                    <i class="fab fa-facebook-square mx-3"></i>
+                    <i class="fab fa-twitter mx-3"></i>
+                    <i class="fab fa-instagram mx-3"></i>
+                </div>
+                <div class="noticias col-3">
+                    <h2>MEMBRESIA</h2>
+                    <p>Suscribase para recibir actualizaciones, acceder a contenido exclusivo, y mas.</p>
+                    <button type="submit" class=" btn-login btn border-danger mx-1">SUSCRIBIR</button>
+                </div>
+                <div class="col-1">
+                </div>
+                <div class="politicas col-2">
+                    <h3>NUESTRAS POLITICAS</h3>
+                    <ul style="list-style:none;">
+                        <li>Sobre Nosotros</li>
+                        <li>Contactenos</li>
+                        <li>Politicas de Reembolso</li>
+                        <li>Politicas Privadas </li>
+                        <li>Terminos de servicio</li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <div>
+            <img class="me-gusta" src="..//img/corazon.jpg" alt="">
+        </div>
+        <div class="container col-6">
+            <img src="../img/visa.jpg" alt="">
+            <img src="../img/mastercard.jpg" alt="">
+            <img src="../img/american.jpg" alt="">
+            <img src="../img/diners.jpg" alt="">
+        </div>
+    </div>
+
+
+
+    <script src="../js/bootstrap/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/main.js"></script>
+</body>
+
+</html>

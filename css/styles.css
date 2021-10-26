@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro&display=swap');
+img {
+    width: 15vh;
+    margin: 2px;
+}
+
+body {
+    background-color: #fbfbfb;
+}
+
+.font-valida {
+    background-color: #d8961b;
+}
+
+.niche-video {
+    width: 35%;
+    margin-left: 35%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+}
+
+.blues-img {
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-fondo {
+    background-image: url(../images/fondo1.jpg);
+    background-size: cover;
+    background-position-y: center;
+    opacity: .95;
+}
+
+:root {
+    margin: 0%;
+}
+
+.seccion-1 {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.card-group-a img:hover {
+    transform: translatey(15px);
+}
+
+.card-group-b img:hover {
+    transform: translatey(15px);
+}
+
+.input-btn-login:visited {
+    background-image: none;
+    background-color: red;
+    font-size: 35px;
+    border: 10px dashed black;
+    color: black;
+}
+
+.input-btn-login:hover {
+    background-image: none;
+    font-size: 25px;
+    border: 10px dashed black;
+    color: black;
+}
+
+.input-suscribe{
+    width: 90%; border: solid; width: 300px; height: 50px;
+}
+
+.input-data{
+    width: 100%; border: solid; width: 400px; height: 50px;
+}
+
+.password{
+    border: solid; background-color: transparent; width: 400px; height: 50px;
+}
+
+.email-input{
+    border: solid; background-color: transparent;width: 400px; height: 50px;
+}
+
+.me-gusta{
+    height: 40px; 
+    width: 40px;
+}

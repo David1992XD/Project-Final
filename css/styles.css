@@ -9,16 +9,8 @@ img {
 }
 
 .wall {
-    background-image: url(../images/wall.jfif);   
+    background-image: url(../img/wall.jfif);   
     background-repeat: repeat-y;
-}
-
-
-.niche-video {
-    width: 35%;
-    margin-left: 35%;
-    margin-bottom: 5%;
-    margin-top: 5%;
 }
 
 .blues-img {
@@ -29,7 +21,7 @@ img {
 }
 
 .card-fondo {
-    background-image: url(../images/fondo1.jpg);
+    background-image: url(../img/fondo1.jpg);
     background-size: cover;
     background-position-y: center;
     opacity: .95;
@@ -97,27 +89,27 @@ img {
 }
 
 .img1-rock {
-    background-image: url(../images/barra_rock.jfif);
+    background-image: url(../img/barra_rock.jfif);
     background-size: cover;
     height: 340px;
 }
 
 .img2-rock {
     background-position: center;
-    background-image: url(../images/barra_rock.jfif);
+    background-image: url(../img/barra_rock.jfif);
     background-size: cover;
     height: 340px;
 }
 
 .img3-rock {
     background-position: center;
-    background-image: url(../images/barra_rock1.jfif);
+    background-image: url(../img/barra_rock1.jfif);
     background-size: cover;
     height: 340px;
 }
 
 .img3-salsa {
-    background-image: url(../images/barra_salsa.jfif);
+    background-image: url(../img/barra_salsa.jfif);
     background-size: cover;
     height: 350px;
     border-top: #0a0a0a solid 10px;
@@ -125,7 +117,7 @@ img {
 
 .img4-salsa {
     background-position: center;
-    background-image: url(../images/barra_salsa.jfif);
+    background-image: url(../img/barra_salsa.jfif);
     background-size: cover;
     height: 350px;
     border-top: #0a0a0a solid 10px;
@@ -133,14 +125,14 @@ img {
 
 .img5-salsa {
     background-position: right;
-    background-image: url(../images/barra_salsa.jfif);
+    background-image: url(../img/barra_salsa.jfif);
     background-size: cover;
     height: 350px;
     border-top: #0a0a0a solid 10px;
 }
 
 .img6-pop {
-    background-image: url(../images/barra_pop.jfif);
+    background-image: url(../img/barra_pop.jfif);
     background-size: cover;
     height: 300px;
     border-top: #0a0a0a solid 10px;
@@ -148,7 +140,7 @@ img {
 
 .img7-pop {
     background-position: center;
-    background-image: url(../images/barra_pop.jfif);
+    background-image: url(../img/barra_pop.jfif);
     background-size: cover;
     height: 300px;
     border-top: #0a0a0a solid 10px;
@@ -156,7 +148,7 @@ img {
 
 .img8-pop {
     background-position: right;
-    background-image: url(../images/barra_pop.jfif);
+    background-image: url(../img/barra_pop.jfif);
     background-size: cover;
     height: 300px;
     border-top: #0a0a0a solid 10px;
@@ -164,7 +156,7 @@ img {
 
 .img9-elec {
     background-position: center;
-    background-image: url(../images/barra_elec.jfif);
+    background-image: url(../img/barra_elec.jfif);
     background-size: cover;
     height: 250px;
     border-top: #0a0a0a solid 10px;
@@ -172,7 +164,7 @@ img {
 
 .img10-elec {
     background-position: center;
-    background-image: url(../images/barra_elec1.jfif);
+    background-image: url(../img/barra_elec1.jfif);
     background-size: cover;
     height: 250px;
     border-top: #0a0a0a solid 10px;
@@ -180,7 +172,7 @@ img {
 
 .img11-elec {
     background-position: center;
-    background-image: url(../images/barra_elec2.jfif);
+    background-image: url(../img/barra_elec2.jfif);
     background-size: cover;
     height: 250px;
     border-top: #0a0a0a solid 10px;
